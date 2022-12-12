@@ -51,7 +51,7 @@ app.post("/dashboard", encodeUrl, (req, res)=>{
         if(Object.keys(result).length > 0){
             userPage();
         }else{
-            res.sendFile(__dirname + '/failLog.html');
+            res.sendFile(__dirname + '/flogin.html');
         }
 
         });

@@ -46,7 +46,7 @@ app.post('/register', encodeUrl, (req, res) => {
                 console.log(err);
             };
             if(Object.keys(result).length > 0){
-                res.sendFile(__dirname + '/failReg.html');
+                res.sendFile(__dirname + '/Fregister.html');
             }else{
             //creating user page in userPage function
             function userPage(){
